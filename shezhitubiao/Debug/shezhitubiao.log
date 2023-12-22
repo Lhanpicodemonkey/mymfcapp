@@ -1,0 +1,27 @@
+﻿生成启动时间为 2023/10/19 15:46:51。
+     1>项目“F:\学习资料\xinC\shezhitubiao\shezhitubiao\shezhitubiao.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         E:\Vc_pC\VC_develop\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\学习资料\xinC\shezhitubiao\Debug\shezhitubiao.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:E:\Vc_pC\VC_develop\VC\Include\Manifest\dpiaware.manifest /Debug /PDB:"F:\学习资料\xinC\shezhitubiao\Debug\shezhitubiao.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\学习资料\xinC\shezhitubiao\Debug\shezhitubiao.lib" /MACHINE:X86 Debug\shezhitubiao.res
+         Debug\BmpTexButton.obj
+         Debug\ComDlg.obj
+         Debug\CounterDlg.obj
+         Debug\SerialPort.obj
+         Debug\SerialPortBase.obj
+         Debug\SerialPortInfo.obj
+         Debug\SerialPortInfoBase.obj
+         Debug\SerialPortInfoWinBase.obj
+         Debug\SerialPortWinBase.obj
+         Debug\shezhitubiao.obj
+         Debug\shezhitubiaoDlg.obj
+         Debug\stdafx.obj
+     1>SerialPortInfoWinBase.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiEnumDeviceInfo@12，该符号在函数 "public: static bool __cdecl CSerialPortInfoWinBase::enumDetailsSerialPorts(class std::vector<struct SerialPortInfo,class std::allocator<struct SerialPortInfo> > &)" (?enumDetailsSerialPorts@CSerialPortInfoWinBase@@SA_NAAV?$vector@USerialPortInfo@@V?$allocator@USerialPortInfo@@@std@@@std@@@Z) 中被引用
+     1>SerialPortInfoWinBase.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiDestroyDeviceInfoList@4，该符号在函数 "public: static bool __cdecl CSerialPortInfoWinBase::enumDetailsSerialPorts(class std::vector<struct SerialPortInfo,class std::allocator<struct SerialPortInfo> > &)" (?enumDetailsSerialPorts@CSerialPortInfoWinBase@@SA_NAAV?$vector@USerialPortInfo@@V?$allocator@USerialPortInfo@@@std@@@std@@@Z) 中被引用
+     1>SerialPortInfoWinBase.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiGetClassDevsW@16，该符号在函数 "public: static bool __cdecl CSerialPortInfoWinBase::enumDetailsSerialPorts(class std::vector<struct SerialPortInfo,class std::allocator<struct SerialPortInfo> > &)" (?enumDetailsSerialPorts@CSerialPortInfoWinBase@@SA_NAAV?$vector@USerialPortInfo@@V?$allocator@USerialPortInfo@@@std@@@std@@@Z) 中被引用
+     1>SerialPortInfoWinBase.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiOpenDevRegKey@24，该符号在函数 "public: static bool __cdecl CSerialPortInfoWinBase::enumDetailsSerialPorts(class std::vector<struct SerialPortInfo,class std::allocator<struct SerialPortInfo> > &)" (?enumDetailsSerialPorts@CSerialPortInfoWinBase@@SA_NAAV?$vector@USerialPortInfo@@V?$allocator@USerialPortInfo@@@std@@@std@@@Z) 中被引用
+     1>SerialPortInfoWinBase.obj : error LNK2019: 无法解析的外部符号 __imp__SetupDiGetDeviceRegistryPropertyW@28，该符号在函数 "public: static bool __cdecl CSerialPortInfoWinBase::enumDetailsSerialPorts(class std::vector<struct SerialPortInfo,class std::allocator<struct SerialPortInfo> > &)" (?enumDetailsSerialPorts@CSerialPortInfoWinBase@@SA_NAAV?$vector@USerialPortInfo@@V?$allocator@USerialPortInfo@@@std@@@std@@@Z) 中被引用
+     1>F:\学习资料\xinC\shezhitubiao\Debug\shezhitubiao.exe : fatal error LNK1120: 5 个无法解析的外部命令
+     1>已完成生成项目“F:\学习资料\xinC\shezhitubiao\shezhitubiao\shezhitubiao.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.59
